@@ -1,0 +1,41 @@
+Problema 3: Reorganización de Elementos​
+Tienes un array de números: [10, 20, 30, 40, 50]. Mueve el último número al principio del array
+
+let numeros= [10,20,30,40,50]
+
+
+numeros.pop();
+
+numeros.unshift(50)
+
+console.log(numeros)
+
+
+
+Problema 6: Extracción y Unión de Arrays​
+
+Tienes dos arrays: numeros1 con elementos [1, 2, 3] y numeros2 con elementos [4, 5, 6]. 
+Utiliza los métodos pop y push para mover el último elemento de numeros1 al final de numeros2, y luego muestra el array numeros2.
+
+
+let numeros =[1,2,3]
+
+let numeros2=[4,5,6]
+
+numeros.pop();
+
+numeros2.push();
+
+numeros2.push(3);
+
+console.log(numeros);
+
+console.log(numeros2);
+
+
+Dado un array de números: [5, 10, 15, 20, 25], crea un nuevo array que contenga los mismos elementos pero en orden inverso
+
+let numeros= [5, 10, 15, 20, 25];
+numeros.reverse();
+console.log(numeros);
+
